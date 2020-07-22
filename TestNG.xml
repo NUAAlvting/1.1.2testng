@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="testng" parallel="false">
+    <test name="test1">
+        <classes>
+            <class name="TestEmployeeDetails"></class>
+        </classes>
+    </test>
+    <test name="test2">
+    <classes>
+        <class name="TestEmpBusinessLogic"></class>
+    </classes>
+    </test>
+</suite>
